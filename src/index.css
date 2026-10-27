@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  html, body, #root {
+    max-width: 100vw;
+    min-height: 100vh;
+  }
+
+  body {
+    -webkit-tap-highlight-color: transparent;
+    word-break: break-word;
+    overflow-wrap: anywhere;
+    background-color: #f1f5f9;
+    color: #0f172a;
+  }
+
+  html.dark body {
+    background-color: #020617;
+    color: #f8fafc;
+  }
+}

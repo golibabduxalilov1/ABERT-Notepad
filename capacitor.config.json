@@ -1,0 +1,9 @@
+{
+  "appId": "uz.taskflow.fifo",
+  "appName": "Notepad",
+  "webDir": "dist",
+  "android": {
+    "allowMixedContent": false,
+    "adjustMarginsForEdgeToEdge": "force"
+  }
+}
